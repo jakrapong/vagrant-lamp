@@ -33,9 +33,12 @@ That is pretty simple.
 The Apache server is available at <http://localhost:8888>
 
 #### MySQL
-Externally the MySQL server is available at port 8889, and when running on the VM it is available as a socket or at port 3306 as usual.
+MySQL server is available at port 3306
 Username: root
 Password: root
+
+#### phpMyAdmin
+The phpMyAdmin4.6 is available at <http://localhost:8888/phpMyAdmin>
 
 Technical Details
 -----------------
@@ -46,6 +49,7 @@ Technical Details
 * XDebug
 * PHPUnit 4.8
 * Composer
+* phpMyAdmin 4.6
 
 We are using the base Ubuntu 14.04 box from Vagrant. If you don't already have it downloaded
 the Vagrantfile has been configured to do it for you. This only has to be done once
